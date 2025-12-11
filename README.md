@@ -11,7 +11,7 @@ a ukázky vývoje grafického uživatelského rozhraní (GUI).
 
 Cílem projektu je ukázat, jak můžete využít Python k vytvoření jednoduchých výpočetních simulací a jejich vizualizací prostřednictvím GUI.
 
-## Instalace
+
 ## Instalace a spuštění
 
 Chcete-li projekt stáhnout a spustit na svém počítači, postupujte následovně:
