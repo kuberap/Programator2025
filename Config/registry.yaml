@@ -1,0 +1,29 @@
+Game of Life:
+  class: GameOfLife
+  config_file: "../../Csv/initGame.csv"
+  params: {}
+  visualizers:
+    default: BitmapVisualizer
+    cells: GameOfLifeVisualizer
+
+Forest Fire:
+  class: ForestFire
+  config_file: "../../Csv/forestFire.csv"
+  params:
+    f: 0.00002
+    p: 0.002
+  visualizers:
+    default: BitmapVisualizer
+
+Fluid Flow:
+  class: FluidFlow
+  config_file: "../../Csv/initFluid.csv"
+  params:
+    MaxMass: 1.0
+    MaxCompress: 0.02
+    MinMass: 0.0001
+    MaxSpeed: 1.0
+    MinFlow: 0.01
+  visualizers:
+    default: BitmapVisualizer
+    velocity: FluidFlowVisualizer
