@@ -36,7 +36,8 @@ Chcete-li projekt stáhnout a spustit na svém počítači, postupujte následov
     pip install -r requirements.txt
 6. **Spuštění finální aplikace:**
    ```bash
-   python Src/GUI_4/aplikace_reseni.py
+   cd Src/GUI_4
+   python Src/GUI_4/aplikace_finalni.py
 
 ## Postup
 
