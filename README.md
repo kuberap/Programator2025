@@ -3,7 +3,7 @@
 
 Projekt obsahuje různé buňkové automaty, například:
 
-- `cellularAutomat.py` – klasické buňkové automaty, např. Game of Life  
+- `cellularAutomat.py` – klasický buňkový automat Game of Life  
 - `fluidFlow.py` – model jednoduchého proudění kapaliny  
 - `forestFire.py` a `forestFireAdvanced.py` – simulace šíření požáru v lese  
 
@@ -11,5 +11,11 @@ a ukázky vývoje grafického uživatelského rozhraní (GUI).
 
 Cílem projektu je ukázat, jak můžete využít Python k vytvoření jednoduchých výpočetních simulací a jejich vizualizací prostřednictvím GUI.
 
-Instalace:
+## Instalace:
+
+## Postup
+
+- **`Src/Backend`** – obsahuje vše, co jsme vytvořili na předcházející hodině.
+- **`Src/GUI_uvod`** – ukázka, jak dělat jednoduché GUI a na co si dát pozor.
+- **`Src/GUI_1` – `Src/GUI_4`** – postupný vývoj GUI krok za krokem.
 
