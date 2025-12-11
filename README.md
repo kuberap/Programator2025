@@ -11,7 +11,32 @@ a ukázky vývoje grafického uživatelského rozhraní (GUI).
 
 Cílem projektu je ukázat, jak můžete využít Python k vytvoření jednoduchých výpočetních simulací a jejich vizualizací prostřednictvím GUI.
 
-## Instalace:
+## Instalace
+## Instalace a spuštění
+
+Chcete-li projekt stáhnout a spustit na svém počítači, postupujte následovně:
+
+1. **Naklonujte repozitář z GitHubu:**
+   ```bash 
+   git clone https://github.com/kuberap/Programator2025.git 
+2. **Vstupte do naklonované složky:**
+    ```bash 
+    cd Programator2025 
+3. **Vytvořte virtuální prostředí:**
+    ```bash
+    python -m venv venv
+4. **Aktivujte virtuální prostředí (Windows):**
+   ```bash
+   venv\Scripts\activate 
+4. **Aktivujte virtuální prostředí (Linux):**
+   ```bash
+   source venv/bin/activate
+5. **Instalace balíků:**
+   ```bash
+    pip install -r requirements.txt
+6. **Spuštění finální aplikace:**
+   ```bash
+   python Src/GUI_4/aplikace_reseni.py
 
 ## Postup
 
