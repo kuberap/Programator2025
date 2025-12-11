@@ -37,7 +37,7 @@ Chcete-li projekt stáhnout a spustit na svém počítači, postupujte následov
 6. **Spuštění finální aplikace:**
    ```bash
    cd Src/GUI_4
-   python Src/GUI_4/aplikace_finalni.py
+   python aplikace_finalni.py
 
 ## Postup
 
