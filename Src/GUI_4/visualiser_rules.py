@@ -5,5 +5,5 @@ from visualisers import *
 VISUALISER_RULES = {
     "default" : BitmapVisualizer(),
     "cells": GameOfLifeVisualizer(),
-    "velocity": FluidFlowVisualizer(),
+    "flow": FluidFlowVisualizer(),
 }

@@ -26,4 +26,4 @@ Fluid Flow:
     MinFlow: 0.01
   visualizers:
     default: BitmapVisualizer
-    velocity: FluidFlowVisualizer
+    flow: FluidFlowVisualizer
