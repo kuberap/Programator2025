@@ -172,7 +172,7 @@ class AutomataGui(QMainWindow):
 
     def create_automata(self, key):
         # Udelejte vytvoreni instance automatu dle vybraneho klice - RESENI
-        """viz posusteni v backendu - tam si take vybirate>
+        """viz spousteni v backendu - tam si take vybirate>
         aut = automat('../../Csv/initGame.csv', irule=GameOfLife)
         aut = automat('../../Csv/forestFire.csv', irule=ForestFire2, params={'f':0.00002, 'p':0.002})
         aut = automat('../../Csv/initFluid.csv', irule=FluidFlow, params={'MaxMass':1.0, 'MaxCompress': 0.02, 'MinMass':0.0001,
