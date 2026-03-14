@@ -16,7 +16,7 @@ class CanvasWidget(QWidget):
         self.setPalette(palette)
 
     def set_buffer(self, image):
-        """Sem ti bude vizualizátor dávat QImage/QPixmap"""
+        """Sem bude vizualizátor dávat QImage/QPixmap"""
         self.buffer = image
         self.update()  # překreslit
 
